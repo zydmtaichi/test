@@ -1,5 +1,5 @@
 import taichi as ti
-from newnbody import adjustnbody
+from mynbodyclass import adjustnbody
 
 ti.init(arch=ti.x64)
 
