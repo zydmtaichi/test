@@ -46,13 +46,13 @@ class adjustnbody:
                 originvel = ti.Vector([-offset[1],offset[0],0])*init_vel
                 self.pos[i] = center+offset
                 self.vel[i] = originvel
-            """
+            
             elif self.dim == 2:
                 offset = ti.Vector([ti.random(),ti.random()])-ti.Vector([expand_size,expand_size])*0.5
                 originvel = ti.Vector([-offset[1],offset[0]])*init_vel
                 self.pos[i] = center+offset
                 self.vel[i] = originvel
-            """
+            
             
             
     @ti.kernel
